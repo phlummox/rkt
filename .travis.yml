@@ -9,7 +9,6 @@ go:
 
 env:
   - TARGET=amd64 GIMME_ARCH=amd64
-  - TARGET=arm64 GIMME_ARCH=arm64 GIMME_CGO_ENABLED=1
 
 addons:
   apt:
